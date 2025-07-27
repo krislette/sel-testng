@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 // Role: Be a parent to ALL page object classes [superclass]
 public class BasePage {
 
-    public static  WebDriver driver;
+    public static WebDriver driver;
 
     public void setDriver(WebDriver driver) {
         BasePage.driver = driver;
