@@ -76,4 +76,5 @@ public class LoginShouldFailTest {
         // Changed assertion to not equals to make the test fail
         Assert.assertNotEquals(actualResult, expectedResult);
     }
+
 }

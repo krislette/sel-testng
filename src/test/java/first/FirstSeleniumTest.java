@@ -74,4 +74,5 @@ public class FirstSeleniumTest {
         String expectedResult = "Dashboard";
         Assert.assertEquals(actualResult, expectedResult);
     }
+
 }
