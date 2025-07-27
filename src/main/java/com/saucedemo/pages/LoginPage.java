@@ -7,7 +7,7 @@ public class LoginPage extends BasePage {
     private final By usernameField = By.id("user-name");
     private final By passwordField = By.id("password");
     private final By loginButton = By.id("login-button");
-    private final By errorMessage = By.xpath("#login_button_container h3");
+    private final By errorMessage = By.cssSelector("#login_button_container h3");
 
     /*
     * There are 4 TYPES of methods that we can use in our Page Object Model
